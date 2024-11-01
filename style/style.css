@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    background-color: #d9cba2; /* Marrón claro */
+    color: #333; /* Color de texto oscuro para mejor legibilidad */
+}
+
+header {
+    background-color: #5a2d2d; /* Marrón oscuro */
+    color: white;
+    padding: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1; /* Fondo claro para el pie de página */
+}
+
+h1, h2, h3 {
+    color: #4caf50; /* Verde claro para los títulos */
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.introduccion {
+    padding: 15px;
+    background-color: #fff; /* Fondo blanco para contraste */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.productos-destacados {
+    margin-top: 30px;
+}
+
+.producto {
+    background-color: #fff; /* Fondo blanco para los productos */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.producto h3 {
+    color: #5a2d2d; /* Marrón oscuro para el título del producto */
+}
+
+.btn {
+    background-color: #4caf50; /* Verde claro para los botones */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #45a049; /* Oscurece el botón al pasar el ratón */
+}
+
+img {
+    max-width: 100%; /* Hace que las imágenes sean responsivas */
+    height: auto;
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+}
+body {
+    font-family: Arial, sans-serif; /* Establece la fuente */
+    font-size: 13px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+}
+
+.index-bg {
+    background-color: #D2B48C; /* Color de fondo marrón claro */
+    background-image: url('../imagenes/fondo4.jpeg'); /* Ruta a la imagen de fondo de index */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-bg {
+    background-color: #D2B48C; /* Color de fondo marrón claro */
+    background-image: url('../imagenes/fondo3.jpg'); /* Ruta a la imagen de fondo de info */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacto-bg {
+    background-color: #D2B48C; /* Color de fondo marrón claro */
+    background-image: url('../imagenes/fondo2.avif'); /* Ruta a la imagen de fondo de contacto */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.productos-bg {
+    background-color: #D2B48C; /* Color de fondo marrón claro */
+    background-image: url('../imagenes/fondo.jpg'); /* Ruta a la imagen de fondo de productos */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -3,40 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Endueto Joyería - Joyería artesanal única y personalizada">
     <title>Endueto Joyería</title>
-    <link rel="stylesheet" href="style/style.css"> 
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <header>
+    <header class="text-center">
         <h1>Bienvenido a Endueto Joyería</h1>
-        <p>Joyería artesanal única y personalizada.</p>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/info.html">Información</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/productos.html">Productos</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <main>
+    
+    <main class="container">
         <section class="introduccion">
             <h2>Descubre nuestra pasión por la joyería</h2>
             <p>En Endueto Joyería, cada pieza es creada a mano con dedicación, utilizando materiales de alta calidad. Nuestro objetivo es ofrecer joyas que reflejen la belleza y la individualidad de quienes las llevan.</p>
         </section>
 
-        <section class="productos-destacados">
-            <h2>Productos Destacados</h2>
-            <div class="producto">
-                <img src="imagenes/imagen1.jpg" alt="Descripción del producto 1">
-                <h3>Aros de otoño</h3>
-                <p>Aros echos en plata inspirados en las ojas de otoño.</p>
-                <a href="producto1.html" class="btn">Ver más</a>
+        <section class="productos-destacados row">
+            <h2 class="col-12">Productos Destacados</h2>
+            <div class="producto col-md-6">
+                <img src="imagenes/imagen1.jpg" alt="Collar de Perlas" class="img-fluid">
+                <h3>Collar de Perlas</h3>
+                <p>Un elegante collar de perlas naturales, perfecto para cualquier ocasión.</p>
+                <a href="producto1.html" class="btn btn-primary">Ver más</a>
             </div>
-            <div class="producto">
-                <img src="imagenes/imagen2.jpg" alt="Descripción del producto 2">
-                <h3>Anillo de plata</h3>
-                <p>Anillo de plata con una piedra que representa lo verde de la naturaleza.</p>
-                <a href="producto2.html" class="btn">Ver más</a>
+            <div class="producto col-md-6">
+                <img src="imagenes/imagen2.jpg" alt="Pulsera de Cuentas de Piedra" class="img-fluid">
+                <h3>Pulsera de Cuentas de Piedra</h3>
+                <p>Pulsera hecha con cuentas de piedra semipreciosa, ideal para agregar color a tu look diario.</p>
+                <a href="producto2.html" class="btn btn-primary">Ver más</a>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="text-center">
         <p>© 2024 Endueto Joyería. Todos los derechos reservados.</p>
     </footer>
-</body>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+<body class="index-bg">
+
 </html>
