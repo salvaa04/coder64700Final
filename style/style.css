@@ -69,39 +69,46 @@ img {
     border-radius: 5px; /* Bordes redondeados para las imágenes */
 }
 body {
-    font-family: Arial, sans-serif; /* Establece la fuente */
+    font-family: Arial, sans-serif; 
     font-size: 13px; /* Tamaño de fuente */
     color: #333; /* Color del texto */
 }
 
 .index-bg {
-    background-color: #D2B48C; /* Color de fondo marrón claro */
-    background-image: url('../imagenes/fondo4.jpeg'); /* Ruta a la imagen de fondo de index */
+    background-color: #D2B48C; 
+    background-image: url('../imagenes/fondo4.jpeg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .info-bg {
-    background-color: #D2B48C; /* Color de fondo marrón claro */
-    background-image: url('../imagenes/fondo3.jpg'); /* Ruta a la imagen de fondo de info */
+    background-color: #D2B48C;
+    background-image: url('../imagenes/fondo3.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .contacto-bg {
-    background-color: #D2B48C; /* Color de fondo marrón claro */
-    background-image: url('../imagenes/fondo2.avif'); /* Ruta a la imagen de fondo de contacto */
+    background-color: #D2B48C; 
+    background-image: url('../imagenes/fondo2.avif'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .productos-bg {
-    background-color: #D2B48C; /* Color de fondo marrón claro */
-    background-image: url('../imagenes/fondo.jpg'); /* Ruta a la imagen de fondo de productos */
+    background-color: #D2B48C; 
+    background-image: url('../imagenes/fondo.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+.aviso-bg {
+    background-image: url('../imagenes/fondo5.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
